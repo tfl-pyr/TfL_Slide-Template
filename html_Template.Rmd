@@ -1,0 +1,62 @@
+
+---
+title: "Template"
+author: "Analyst Name"
+date: "19 July 2016"
+css: style2.css
+output: 
+      ioslides_presentation
+---
+
+
+## Admin 
+                           
+ -------------------------  -----------------------
+ Protective marking         <font color = "Red">**TfL Restricted**</font> 
+ Suitable for publication   Y
+ Version                    Draft
+ File path                  -
+ Department                 Intelligence and Analysis Team (EOS)
+ Quality Assured by         - 
+ -------------------------  -----------------------
+
+
+<div class="footer"></div>
+
+## Contents
+
+
+- Bullet 1
+
+- Bullet 2
+
+- Bullet 3
+
+
+<div class="footer"></div>
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+
+<div class="footer"></div>
+
+## Slide with Plot
+
+```{r, echo=FALSE, message = FALSE, warning=FALSE}
+
+library (ggplot2)
+library(plotly)
+
+plot<- qplot(data = mtcars, x = mpg, y = hp, colour = cyl)+
+  geom_smooth(method = "lm")
+
+ggplotly(plot)
+```
+
+
+<div class="footer"></div>
+

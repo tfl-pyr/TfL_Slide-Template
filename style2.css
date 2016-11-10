@@ -1,0 +1,69 @@
+
+.title-slide {
+    background-image: url(vauxhall.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+	
+}
+
+.title-slide hgroup {
+  position: absolute;
+  width: auto;
+  height: auto;
+  right: 10px;
+  bottom: 10px;
+}
+
+/* make the text white on the title slide and aligned to the bottom */
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2,
+.title-slide hgroup > p {
+  margin:0;
+  color: white ;  /*white*/
+  text-align: left;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* make the colour dark blue of the headers */
+h1 { color: #000099; }
+h2 { color: #000099; }
+h3 { color: #000099; }
+h4 { color: #000099; }
+h5 { color: #000099; }
+h6 { color: #000099; }
+
+/* format the paragaphs here they are just dark blue text */
+p {
+	
+    color: #000099;
+}
+
+
+
+body { 
+    margin: 0 0 76px; /* bottom = footer height */
+    padding: 25px;
+}
+
+
+
+.footer {
+    background-image: url(Footer.png);
+    background-size: cover;
+    position: absolute;
+    height: 76px;
+    width:100%;
+    bottom: 0;
+    left: 0;	
+    overflow:hidden;	
+}
+
+ 
+ 
